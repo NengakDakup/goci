@@ -12,37 +12,37 @@ const Gallery = () => {
         </div>
         <div className="row no-gutters">
           <div className="col-md-3">
-            <a href="/images/gallery-1.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-1.jpg)'}}>
+            <a href="/images/gallery-1.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-1.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-3">
-            <a href="/images/gallery-2.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-2.jpg)'}}>
+            <a href="/images/gallery-2.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-2.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-3">
-            <a href="/images/gallery-3.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-3.jpg)'}}>
+            <a href="/images/gallery-3.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-3.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-3">
-            <a href="/images/gallery-4.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-4.jpg)'}}>
+            <a href="/images/gallery-4.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-4.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-6">
-            <a href="/images/gallery-5.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-5.jpg)'}}>
+            <a href="/images/gallery-5.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-5.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-3">
-            <a href="/images/gallery-6.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-6.jpg)'}}>
+            <a href="/images/gallery-6.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-6.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>
           <div className="col-md-3">
-            <a href="/images/gallery-7.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(images/gallery-7.jpg)'}}>
+            <a href="/images/gallery-7.jpg" className="image-popup img gallery ftco-animate" style={{backgroundImage: 'url(/images/gallery-7.jpg)'}}>
               <span className="overlay"></span>
             </a>
           </div>

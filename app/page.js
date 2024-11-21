@@ -5,6 +5,7 @@ import MissionStatement from "@/components/MissionStatement";
 import AboutChurch from "@/components/AboutChurch";
 import Statistics from "@/components/Statistics";
 import Gallery from "@/components/Gallery";
+import Members from "@/components/Members";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <MissionStatement /> 
       <AboutChurch />  
       <Statistics />
+      <Members />
       <Gallery /> 
     </>
   );

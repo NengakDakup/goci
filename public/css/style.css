@@ -2617,10 +2617,10 @@ textarea.form-control {
   width: 100%;
   margin-bottom: 30px; }
   .staff .img {
-    background-position: top center;
-    width: 100%;
+    background-position: center;
+    width: auto;
     display: block;
-    height: 300px;
+    height: 400px;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
