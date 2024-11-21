@@ -13,10 +13,7 @@ const Hero = () => {
 						<div className="col-md-8 ftco-animate">
 							<div className="text mt-md-5 w-100 text-center">
 								<h2>Global Outreach for Christ International (GOCI)</h2>
-								<h1 style={{fontSize: '1.5rem'}}>The kingdom people with the King’s message to the kingdoms of the world.</h1>
-								<p className="mb-4 pb-3">
-                                    A faith-based, non-profit Christian mission agency founded in 1996, dedicated to fulfilling Christ’s mandate of world evangelization. Our vision is to be a mission agency with a global presence, reaching the unreached with the gospel of our Lord Jesus Christ.
-                                </p>
+								<h1 className="mb-5" style={{fontSize: '2rem'}}>The kingdom people with the King’s message to the kingdoms of the world.</h1>
 								<p className="mb-0"><a href="#" className="btn btn-primary py-3 px-2 px-md-4">More About Us</a></p>
 							</div>
 						</div>
