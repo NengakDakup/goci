@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import MissionStatement from "@/components/MissionStatement";
 import AboutChurch from "@/components/AboutChurch";
 import Statistics from "@/components/Statistics";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <Hero />
       <MissionStatement /> 
       <AboutChurch />  
-      <Statistics /> 
+      <Statistics />
+      <Gallery /> 
     </>
   );
 }
