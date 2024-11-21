@@ -7,8 +7,8 @@ const Header = () => {
 		<div className="container">
 			<div className="row">
 				<div className="col-md-6 d-flex align-items-center">
-					<p className="mb-0 location">
-						<span className="fa fa-map-marker mr-2"></span> Bishe behind Hwol-Azah, opposite Army Engineer Zaria Road, Jos, Plateau State, Nigeria.
+					<p className="mb-0 location no-wrap">
+						<span className="fa fa-map-marker mr-2"></span> Bishe, Jos, Plateau State, Nigeria
 					</p>
 				</div>
 				<div className="col-md-6 d-flex justify-content-md-end">
@@ -33,14 +33,14 @@ const Header = () => {
 
 			<div className="collapse navbar-collapse" id="ftco-nav">
 				<ul className="navbar-nav ml-auto">
-					<li className="nav-item active"><a href="index.html" className="nav-link">Home</a></li>
-					<li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
-					<li className="nav-item"><a href="ministries.html" className="nav-link">Ministries</a></li>
-					<li className="nav-item"><a href="sermons.html" className="nav-link">Sermons</a></li>
-					<li className="nav-item"><a href="events.html" className="nav-link">Events</a></li>
-					<li className="nav-item"><a href="blog.html" className="nav-link">Blog</a></li>
-					<li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
-					<li className="nav-item cta"><a href="contact.html" className="nav-link">Donate</a></li>
+					<li className="nav-item active"><a href="#" className="nav-link">Home</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">About</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">Ministries</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">Sermons</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">Events</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
+					<li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
+					<li className="nav-item cta"><a href="#" className="nav-link">Donate</a></li>
 				</ul>
 			</div>
 		</div>
