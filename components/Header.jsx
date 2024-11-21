@@ -8,7 +8,7 @@ const Header = () => {
 			<div className="row">
 				<div className="col-md-6 d-flex align-items-center">
 					<p className="mb-0 location">
-						<span className="fa fa-map-marker mr-2"></span> 203 Fake St. Mountain View, San Francisco, California, USA
+						<span className="fa fa-map-marker mr-2"></span> Bishe behind Hwol-Azah, opposite Army Engineer Zaria Road, Jos, Plateau State, Nigeria.
 					</p>
 				</div>
 				<div className="col-md-6 d-flex justify-content-md-end">
@@ -26,7 +26,7 @@ const Header = () => {
 	</div>
 	<nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div className="container">
-			<a className="navbar-brand" href="index.html">Salvation</a>
+			<a className="navbar-brand" href="index.html">GOCI</a>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span className="oi oi-menu"></span> Menu
 			</button>
