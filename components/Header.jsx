@@ -1,6 +1,8 @@
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
 const Header = () => {
+	const pathname = usePathname()
   return (
     <>
     <div className="wrap">
@@ -33,14 +35,14 @@ const Header = () => {
 
 			<div className="collapse navbar-collapse" id="ftco-nav">
 				<ul className="navbar-nav ml-auto">
-					<li className="nav-item active"><a href="#" className="nav-link">Home</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">About</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">Ministries</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">Sermons</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">Events</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
-					<li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
-					<li className="nav-item cta"><a href="#" className="nav-link">Donate</a></li>
+				<li className={`nav-item ${pathname === '/' ? 'active' : ''}`}><a href="/" className="nav-link">Home</a></li>
+					<li className={`nav-item ${pathname === '/about' ? 'active' : ''}`}><a href="/about" className="nav-link">About</a></li>
+					<li className={`nav-item ${pathname === '/ministries' ? 'active' : ''}`}><a href="/ministries" className="nav-link">Ministries</a></li>
+					<li className={`nav-item ${pathname === '/sermons' ? 'active' : ''}`}><a href="/sermons" className="nav-link">Sermons</a></li>
+					<li className={`nav-item ${pathname === '/events' ? 'active' : ''}`}><a href="/events" className="nav-link">Events</a></li>
+					<li className={`nav-item ${pathname === '/blog' ? 'active' : ''}`}><a href="/blog" className="nav-link">Blog</a></li>
+					<li className={`nav-item ${pathname === '/contact' ? 'active' : ''}`}><a href="/contact" className="nav-link">Contact</a></li>
+					<li className={`nav-item cta ${pathname === '/donate' ? 'active' : ''}`}><a href="/donate" className="nav-link">Donate</a></li>
 				</ul>
 			</div>
 		</div>
