@@ -3,6 +3,7 @@
 import "./globals.css";
 import Script from "next/script";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
             <circle className="path" cx="24" cy="24" r="22" fill="none" strokeWidth="4" strokeMiterlimit="10" stroke="#F96D00"/>
           </svg>
         </div> */}
+        <Footer />
 
         <Script src="/js/jquery.min.js"></Script>
         <Script src="/js/jquery-migrate-3.0.1.min.js"></Script>
