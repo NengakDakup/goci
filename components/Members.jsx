@@ -1,4 +1,5 @@
 import React from 'react'
+import members from '@/data/members'
 
 const Members = () => {
   return (
@@ -11,60 +12,22 @@ const Members = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 col-lg-3">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/livingstone.jpg)'}}></div>
-              <div className="text text-1">
-                <h3>Livingstone William</h3>
-                <span>Coordinator</span>
+          {members.map((member, i) => {
+            return (
+              <div className="col-md-6 col-lg-3">
+                <div className="staff">
+                  <div className="img" style={{ backgroundImage: `url(${member.image})` }}></div>
+                  <div className="text text-1">
+                    <h3>{member.name}</h3>
+                    <span>{member.position}</span>
+                    <div className="mt-2">
+                      <a href={`/profile/${member.slug}`} style={{ color: 'white', textDecoration: 'underline' }}>View Profile <i className="fa fa-arrow-right ml-2"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/comfort.jpg)'}}></div>
-              <div className="text text-2">
-                <h3>Prof. Comfort Nanko Piwuna</h3>
-                <span>Chairman</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/markus.jpg)'}}></div>
-              <div className="text text-3">
-                <h3>Dcn. Pharm. Markus Audu Kanda</h3>
-                <span>Member</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/abraham.jpg)'}}></div>
-              <div className="text text-4">
-                <h3>Dns. Hargirga Frama Abraham</h3>
-                <span>Member</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/yenmikat.jpg)'}}></div>
-              <div className="text text-4">
-                <h3>Mrs. Yenmikat N. Zwalda</h3>
-                <span>Member</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="staff">
-              <div className="img" style={{backgroundImage: 'url(/images/team/staff-4.jpg)'}}></div>
-              <div className="text text-4">
-                <h3>Rev. John Kalma</h3>
-                <span>Member</span>
-              </div>
-            </div>
-          </div>
+            )
+          })}
         </div>
       </div>
     </section>
