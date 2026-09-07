@@ -12,15 +12,13 @@ const members = [
               <h2 className="mb-4">Personal Profile</h2>
               <div className="profile-text">
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  Born on 3rd February 1977, I am a Lunguda by tribe and married with three children.
-                  I currently reside in Hwal'azah Jos and work with Global Outreach for Christ International.
+                  Livingstone William is a missionary with Global Outreach for Christ International. He served as a missionary for two and a half decades in northern Nigeria among unreached people groups before he was moved to Jos, Plateau State as a mobilizer and discipler of leaders. He is currently the successor of the founder.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  As a missionary by profession, I've completed various educational programs including a BSc in
-                  Religion and Philosophy from University of Jos and a Diploma in Cross-Cultural Missions.
+                  Born on 3rd February 1977, he is a Lunguda by tribe, married with three children, and currently resides in Hwal'azah, Jos.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  I've served as Registrar at GOBI and was the pioneering principal of Agape Baptist High School.
+                  As a missionary by profession, he has completed various educational programs including a BSc in Religion and Philosophy from the University of Jos and a Diploma in Cross-Cultural Missions. He has also served as Registrar at GOBI and was the pioneering principal of Agape Baptist High School.
                 </p>
               </div>
             </div>
