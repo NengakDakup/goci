@@ -15,7 +15,10 @@ const members = [
                   Livingstone William is a missionary with Global Outreach for Christ International. He served as a missionary for two and a half decades in northern Nigeria among unreached people groups before he was moved to Jos, Plateau State as a mobilizer and discipler of leaders. He is currently the successor of the founder.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  Born on 3rd February 1977, he is a Lunguda by tribe, married with three children, and currently resides in Hwal'azah, Jos.
+                  He is presently coordinating Global Outreach for Christ International in training and deploying missionaries for church planting.
+                </p>
+                <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+                  Born on 3rd February 1977, he is a Lunguda by tribe, married to Mrs. Wahama, blessed with three children, and currently resides in Hwal'azah, Jos.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
                   As a missionary by profession, he has completed various educational programs including a BSc in Religion and Philosophy from the University of Jos and a Diploma in Cross-Cultural Missions. He has also served as Registrar at GOBI and was the pioneering principal of Agape Baptist High School.
