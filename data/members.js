@@ -161,7 +161,7 @@ const members = [
     slug: 'rev-john-kalma',
     name: 'Rev. John Kalma',
     position: 'Member',
-    image: '/images/team/user.jpg',
+    image: '/images/team/john.jpg',
     profileHTML: <section className="ftco-section">
       <div className="container">
         <div className="row">
@@ -173,6 +173,28 @@ const members = [
                   No information provided
                 </p>
 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  },
+  {
+    slug: 'rev-dr-ephraim-yakubu',
+    name: 'Rev. Dr. Ephraim Yakubu',
+    position: 'Member',
+    image: '/images/team/ephraim.jpg',
+    profileHTML: <section className="ftco-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="profile-content p-4 bg-light rounded">
+              <h2 className="mb-4">Personal Profile</h2>
+              <div className="profile-text">
+                <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+                  No information provided
+                </p>
               </div>
             </div>
           </div>
