@@ -44,6 +44,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li><a href="/" className="py-2 d-block">Home</a></li>
               <li><a href="/about" className="py-2 d-block">About</a></li>
+              <li><a href="/pillars" className="py-2 d-block">Pillars</a></li>
               <li><a href="/missions" className="py-2 d-block">Missions</a></li>
               <li><a href="/leadership" className="py-2 d-block">Leadership</a></li>
               <li><a href="/events" className="py-2 d-block">Events</a></li>

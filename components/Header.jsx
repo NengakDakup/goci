@@ -37,6 +37,7 @@ const Header = () => {
 						<ul className="navbar-nav ml-auto">
 							<li className={`nav-item ${pathname === '/' ? 'active' : ''}`}><a href="/" className="nav-link">Home</a></li>
 							<li className={`nav-item ${pathname === '/about' ? 'active' : ''}`}><a href="/about" className="nav-link">About</a></li>
+							<li className={`nav-item ${pathname === '/pillars' ? 'active' : ''}`}><a href="/pillars" className="nav-link">Pillars</a></li>
 							<li className={`nav-item ${pathname === '/missions' ? 'active' : ''}`}><a href="/missions" className="nav-link">Missions</a></li>
 							<li className={`nav-item ${pathname === '/leadership' ? 'active' : ''}`}><a href="/leadership" className="nav-link">Leadership</a></li>
 							<li className={`nav-item ${pathname === '/events' ? 'active' : ''}`}><a href="/events" className="nav-link">Events</a></li>
