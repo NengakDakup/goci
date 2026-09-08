@@ -33,9 +33,9 @@ const AboutFull = () => {
                 <p><strong>Our mission:</strong></p>
                 <p>To bring pleasure to God by engaging in scriptural Ministry in power of Holy spirit in order to bring all the people of earth to submit to the Lordship of the Lord Jesus Christ and to worship the one and only true God. </p>
                 <p><strong>MOTTO:</strong></p>
-                <p>That the kingdom's of the world may become the kingdom's of our Lord and His Christ.  Revelation 11:15 </p>
+                <p>That the kingdoms of the world may become the kingdom of our Lord and His Christ. Revelation 11:15</p>
                 <p><strong>SLOGAN:</strong></p>
-                <p>The kingdom people, with the King's message, to the kingdom's of the world.  </p>
+                <p>The people of the kingdom, With the King's message, to the Kingdoms of the World.</p>
                 <p><strong>Our STRATEGY :</strong></p>
                 <p>The strategy of the commission as its seek to actualize its vision is to recruit, help train and deploy missionaries to the unreached people groups, with the Gospel, and then mobilize prayer, financial, material and moral support for them as they plant the Gospel of the Lord Jesus Christ among the unreached peoples of the earth.</p>
                 <p><strong>GOCI GOAL:</strong></p>
