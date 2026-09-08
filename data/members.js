@@ -97,26 +97,24 @@ const members = [
 
   {
     slug: 'abraham-hargiga-frama',
-    name: 'Abraham Hargiga Frama',
-    position: 'Member',
+    name: 'Late Frama Abraham',
+    position: 'Founder',
     image: '/images/team/abraham.jpg',
     profileHTML: <section className="ftco-section">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="profile-content p-4 bg-light rounded">
-              <h2 className="mb-4">Personal Profile</h2>
+              <h2 className="mb-4">Founder's Profile</h2>
               <div className="profile-text">
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  Born on 4th April, I am from the Lunguda tribe of Adamawa State. I am married and
-                  currently reside in Jos, Plateau State.
+                  Frama Abraham was a very renown missionary who had the passion for souls and began evangelism and church planting as a young university student. He founded GOCI in 1996 after planting churches in Borno, Bauchi and Plateau States.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  I work as an accountant in the civil service in Jos. I completed my education at
-                  GSS Banjiram, Adamawa State and continued my studies in Plateau State.
+                  He was also a very impactful member of the Nigerian Baptist Convention who served in various capacities. A man of God—humble, prayerful, truthful, and passionate for souls.
                 </p>
                 <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                  I am actively involved with GOCI and committed to its mission and vision.
+                  He was murdered by Muslims in a crisis while returning from a missionary awareness programme in 2018. His legacy and vision continue to guide the mission today.
                 </p>
               </div>
             </div>
