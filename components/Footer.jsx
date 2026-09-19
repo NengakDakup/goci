@@ -50,6 +50,8 @@ const Footer = () => {
               <li><a href="/events" className="py-2 d-block">Events</a></li>
               <li><a href="/blog" className="py-2 d-block">Blog</a></li>
               <li><a href="/contact" className="py-2 d-block">Contact</a></li>
+              <li><a href="/partner" className="py-2 d-block">Partner With Us</a></li>
+              <li><a href="/donate" className="py-2 d-block">Donate</a></li>
             </ul>
           </div>
           <div className="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -58,7 +60,7 @@ const Footer = () => {
               <ul>
                 <li><span className="icon fa fa-map"></span><span className="text">Bishe behind Hwol-Azah opp. Army engineer Zaria road, Jos, P.O box, 13497, Plateau state Nigeria</span></li>
                 <li><a href="tel:+2347033883043"><span className="icon fa fa-phone"></span><span className="text">+234 7033883043</span></a></li>
-                <li><a href="malito:gocijos@g-mail.com"><span className="icon fa fa-paper-plane"></span><span className="text">gocijos@g-mail.com</span></a></li>
+                <li><a href="mailto:gocijos@g-mail.com"><span className="icon fa fa-paper-plane"></span><span className="text">gocijos@g-mail.com</span></a></li>
               </ul>
             </div>
           </div>

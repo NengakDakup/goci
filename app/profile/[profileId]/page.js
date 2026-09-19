@@ -4,7 +4,7 @@ import members from "@/data/members";
 async function ProfilePage({ params }) {
 
   const { profileId } = await params
-  const member = members.find(m => m.slug === profileId);
+  const member = members.find(m => m.slug === profileId || (profileId === 'abraham-hargiga-frama' && m.slug === 'hargiga-frama'));
 
   if (!member) return (
     <>

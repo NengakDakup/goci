@@ -42,22 +42,53 @@ const DonatePage = () => {
                   <p>For the progress of Global missions, we need your support to reach unreached people groups. God loves a cheerful giver.</p>
 
                   <div className="payment-details mt-4">
-                    <h5>Payment Options:</h5>
-                    <ul>
-                      <li>Online platforms via our website</li>
-                      <li>Cheques in favor of Global Outreach for Christ International</li>
-                      <li>Direct debit to Sterling Bank PLC:</li>
-                    </ul>
-                    <div className="bank-details">
-                      <p><strong>Account Name: Global Outreach Commission International</strong></p>
-                      <p><strong>Account Number: 0064400731</strong></p>
-                      <p><strong>Bank: Sterling Bank PLC</strong></p>
+                    <h5>Direct Bank Transfer / Deposit:</h5>
+                    <p className="text-muted">You can make donations directly to either of our official First Bank accounts below:</p>
+
+                    <div className="row mt-4">
+                      {/* Ministry Account */}
+                      <div className="col-md-6 mb-4">
+                        <div className="p-4 bg-white border rounded shadow-sm h-100" style={{ borderLeft: '5px solid #007bff' }}>
+                          <span className="badge badge-primary mb-2 px-2 py-1" style={{ fontSize: '0.85rem' }}>Ministry / Missions</span>
+                          <h4 className="font-weight-bold mb-3" style={{ fontSize: '1.2rem', color: '#1a1a1a' }}>Global Outreach for Christ International</h4>
+                          <p className="mb-2 text-muted" style={{ fontSize: '0.95rem' }}>
+                            <strong>Account Type:</strong> Mission Account
+                          </p>
+                          <div className="p-3 bg-light rounded mb-3">
+                            <span className="text-muted d-block small">ACCOUNT NUMBER</span>
+                            <span className="font-weight-bold text-primary" style={{ fontSize: '1.5rem', letterSpacing: '1px' }}>2049475764</span>
+                          </div>
+                          <p className="mb-1"><strong>Bank:</strong> First Bank</p>
+                          <p className="mb-0 text-muted small">Supports missionary allowances, church planting, and field outreaches.</p>
+                        </div>
+                      </div>
+
+                      {/* Mission School / Training Institute Account */}
+                      <div className="col-md-6 mb-4">
+                        <div className="p-4 bg-white border rounded shadow-sm h-100" style={{ borderLeft: '5px solid #28a745' }}>
+                          <span className="badge badge-success mb-2 px-2 py-1" style={{ fontSize: '0.85rem' }}>Mission School &amp; Training</span>
+                          <h4 className="font-weight-bold mb-3" style={{ fontSize: '1.2rem', color: '#1a1a1a' }}>Missionary Training Institute Committee, Bishe</h4>
+                          <p className="mb-2 text-muted" style={{ fontSize: '0.95rem' }}>
+                            <strong>Account Type:</strong> Training &amp; Education Account
+                          </p>
+                          <div className="p-3 bg-light rounded mb-3">
+                            <span className="text-muted d-block small">ACCOUNT NUMBER</span>
+                            <span className="font-weight-bold text-success" style={{ fontSize: '1.5rem', letterSpacing: '1px' }}>2048516040</span>
+                          </div>
+                          <p className="mb-1"><strong>Bank:</strong> First Bank</p>
+                          <p className="mb-0 text-muted small">Supports the Missionary Training Institute (MTI), students, and mission schools.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="alert alert-info mt-3 p-4 rounded text-center">
+                      <h5 className="font-weight-bold mb-2">Looking to Partner With Us Regularly?</h5>
+                      <p className="mb-3">Whether you feel called to support us financially, uphold us in prayer, or join our ministry teams, we would love to connect with you.</p>
+                      <a href="/partner" className="btn btn-primary px-4 py-2">
+                        Fill Partnership Form <i className="fa fa-arrow-right ml-2"></i>
+                      </a>
                     </div>
                   </div>
-
-                  {/* <div className="donate-button-wrapper text-center mt-5">
-                    <button className="btn btn-primary btn-lg">Donate Now</button>
-                  </div> */}
                 </div>
               </div>
             </div>

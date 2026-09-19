@@ -42,6 +42,14 @@ const AboutFull = () => {
                 <p><strong>Our Mission:</strong> To bring pleasure to God by engaging in scriptural ministry in power of Holy Spirit in order to bring all the people of earth to submit to the Lordship of the Lord Jesus Christ and to worship the one and only true God.</p>
                 <p><strong>MOTTO:</strong> That the kingdoms of the world may become the kingdom of our Lord and His Christ. Revelation 11:15</p>
                 <p><strong>SLOGAN:</strong> The people of the kingdom, With the King's message, to the Kingdoms of the World.</p>
+                <p><strong>CORE VALUES:</strong></p>
+                <ol className="pl-4" style={{ lineHeight: '1.8' }}>
+                  <li>Faith</li>
+                  <li>Compassion</li>
+                  <li>Integrity</li>
+                  <li>Hard working</li>
+                  <li>Excellence</li>
+                </ol>
                 <p><strong>Our STRATEGY:</strong> To recruit, train, and deploy missionaries to unreached people groups with the Gospel, and mobilize prayer, financial, material, and moral support for them as they plant the Gospel of Jesus Christ.</p>
                 <p><strong>GOCI GOAL:</strong> To plant indigenous churches that are self-governing, self-sustaining, and self-propagating, accelerating the pace of gospel propagation worldwide.</p>
               </div>

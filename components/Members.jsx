@@ -14,7 +14,7 @@ const Members = () => {
         <div className="row">
           {members.map((member, i) => {
             return (
-              <div className="col-md-6 col-lg-3">
+              <div className="col-md-6 col-lg-3" key={member.slug || i}>
                 <div className="staff">
                   <div className="img" style={{ backgroundImage: `url(${member.image})` }}></div>
                   <div className="text text-1">

@@ -31,11 +31,19 @@ const MissionStatement = () => {
                                 <div className="services-2">
                                     <div className="icon"><span className="flaticon-love"></span></div>
                                     <div className="text">
-                                        <h4>Motto &amp; Slogan</h4>
+                                        <h4>Motto, Slogan &amp; Values</h4>
                                         <span className="subheading">Our motto</span>
                                         <p>That the kingdoms of the world will become the Kingdom of our Lord and of his Christ.</p>
                                         <span className="subheading mt-2 d-block">Our slogan</span>
                                         <p>The people of the kingdom, With the King's message, to the Kingdoms of the World.</p>
+                                        <span className="subheading mt-2 d-block">Core Values</span>
+                                        <ol className="pl-3 mb-0" style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>
+                                            <li>Faith</li>
+                                            <li>Compassion</li>
+                                            <li>Integrity</li>
+                                            <li>Hard working</li>
+                                            <li>Excellence</li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
