@@ -5,33 +5,33 @@ const PillarsPage = () => {
     {
       title: 'Church Mission',
       description: 'Reaching the unreached with the gospel of our Lord Jesus Christ, planting indigenous and self-sustaining churches, and deploying missionaries across virgin territories.',
-      image: '/images/ministry-1.jpg'
+      image: '/images/church-convention.png'
     },
     {
       title: 'Education',
       description: 'Equipping future generations and church leaders through our Missionary Training Institute (MTI), Global Outreach Bible Institute (GOBI, Jirem, Taraba State), Bible School (Gulbedu, Niger State), and Living Seed Primary Schools across Kebbi, Kano, Jibawa, and Jirem (3 schools).',
-      image: '/images/ministry-3.jpg'
+      image: '/images/outreach/11.jpg'
     },
     {
       title: 'Social Service',
       description: 'Demonstrating the love of Christ through practical humanitarian aid, rural medical outreaches, clean water projects, and community relief initiatives.',
-      image: '/images/ministry-4.jpg'
+      image: '/images/outreach/7.jpg'
     },
     {
       title: 'Media and Publicity',
       description: 'Amplifying the King’s message to the kingdoms of the world through strategic media broadcasting, digital outreach, storytelling, and publication.',
-      image: '/images/ministry-5.jpg'
+      image: '/images/church-prayer.png'
     },
     {
       title: 'Entrepreneurship',
       description: 'Fostering economic empowerment, vocational training, and sustainable livelihood programs to support self-reliant families and transforming local economies.',
-      image: '/images/ministry-6.jpg'
+      image: '/images/church-family.png'
     }
   ];
 
   return (
     <>
-      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('/images/bg_1.jpg')`, height: '844px' }}>
+      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('/images/church-prayer.png')`, height: '844px' }}>
         <div className="overlay"></div>
         <div className="container">
           <div className="row no-gutters slider-text js-fullheight align-items-end" style={{ height: '844px' }}>

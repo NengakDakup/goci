@@ -55,7 +55,7 @@ const AboutFull = () => {
               </div>
             </div>
             <div className="col-md-6 d-flex">
-              <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style={{ backgroundImage: 'url(/images/about-3.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style={{ backgroundImage: 'url(/images/church-congregation.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
             </div>
           </div>

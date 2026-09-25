@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="col-md-6 col-lg-3 mb-4 mb-md-0">
             <h2 className="footer-heading">Latest News</h2>
             <div className="block-21 mb-4 d-flex">
-              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/event-3.jpg)" }}></a>
+              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/church-prayer.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></a>
               <div className="text">
                 <h3 className="heading"><a href="/events">Missionary and Pastor's Retreat</a></h3>
                 <div className="meta">
@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="block-21 mb-4 d-flex">
-              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/event-2.jpg)" }}></a>
+              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/church-convention.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></a>
               <div className="text">
                 <h3 className="heading"><a href="/events">30 Years Anniversary of the Ministry</a></h3>
                 <div className="meta">

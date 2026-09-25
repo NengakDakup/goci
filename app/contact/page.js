@@ -3,7 +3,7 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <>
-      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('images/bg_1.jpg')`, height: '844px' }}>
+      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('/images/church-family.png')`, height: '844px' }}>
         <div className="overlay"></div>
         <div className="container">
           <div className="row no-gutters slider-text js-fullheight align-items-end" style={{ height: '844px' }}>
@@ -103,7 +103,7 @@ const ContactPage = () => {
                     </div>
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch">
-                    <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: "url(images/about-3.jpg)" }}>
+                    <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: "url(/images/church-family.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
                   </div>
                 </div>

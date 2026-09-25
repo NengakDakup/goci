@@ -3,7 +3,7 @@ import React from 'react'
 const DonatePage = () => {
   return (
     <>
-      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('images/bg_1.jpg')`, height: '844px' }}>
+      <section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('/images/church-convention.png')`, height: '844px' }}>
         <div className="overlay"></div>
         <div className="container">
           <div className="row no-gutters slider-text js-fullheight align-items-end" style={{ height: '844px' }}>
