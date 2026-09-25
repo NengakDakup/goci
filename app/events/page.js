@@ -18,8 +18,44 @@ const EventsPage = () => {
       <section className="ftco-section">
         <div className="container">
           <div className="row">
+            {/* Event: Missionary and Pastor's Retreat */}
             <div className="col-md-12 event-wrap d-md-flex ftco-animate fadeInUp ftco-animated">
-              <div className="img" style={{ backgroundImage: "url(images/event-1.jpg)" }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/event-3.jpg)" }}></div>
+              <div className="text p-4 px-md-5 d-flex align-items-center">
+                <div className="desc">
+                  <span className="badge badge-primary px-3 py-1 mb-2 font-weight-bold" style={{ fontSize: '0.85rem' }}>Annual Gathering</span>
+                  <h2 className="mb-4">Missionary and Pastor's Retreat</h2>
+                  <div className="meta">
+                    <p>
+                      <span><i className="fa fa-calendar mr-2"></i> 9th to 13th December 2026</span>
+                      <span><i className="fa fa-map-marker mr-2"></i> Global Headquarter, Bishe, Bassa Local Govt., Plateau State</span>
+                    </p>
+                  </div>
+                  <p>A vital season of spiritual empowerment, strategic mission review, and fellowship for all serving missionaries and pastors across our 10 mission fields and stations.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Event: 30 Years Anniversary */}
+            <div className="col-md-12 event-wrap d-md-flex ftco-animate fadeInUp ftco-animated">
+              <div className="img" style={{ backgroundImage: "url(/images/event-2.jpg)" }}></div>
+              <div className="text p-4 px-md-5 d-flex align-items-center">
+                <div className="desc">
+                  <span className="badge badge-success px-3 py-1 mb-2 font-weight-bold" style={{ fontSize: '0.85rem' }}>Landmark Celebration</span>
+                  <h2 className="mb-4">30 Years Anniversary of the Ministry</h2>
+                  <div className="meta">
+                    <p>
+                      <span><i className="fa fa-calendar mr-2"></i> 12th December 2026</span>
+                      <span><i className="fa fa-map-marker mr-2"></i> Global Headquarter, Bishe, Bassa Local Govt., Plateau State</span>
+                    </p>
+                  </div>
+                  <p>Celebrating three decades of God's faithfulness (1996 – 2026) in taking the King's message to the kingdoms of the world, pioneering church planting, and reaching the unreached.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-12 event-wrap d-md-flex ftco-animate fadeInUp ftco-animated">
+              <div className="img" style={{ backgroundImage: "url(/images/event-1.jpg)" }}></div>
               <div className="text p-4 px-md-5 d-flex align-items-center">
                 <div className="desc">
                   <h2 className="mb-4">January Prayer and Fasting</h2>

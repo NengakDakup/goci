@@ -10,43 +10,53 @@ const Statistics = () => {
           </div>
           <div className="col-md-9">
             <div className="row">
-              <div className="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+              <div className="col-6 col-md-4 col-lg d-flex justify-content-center counter-wrap ftco-animate">
                 <div className="block-18 text-center">
                   <div className="text">
-                    <strong className="number" data-number="18">0</strong>
+                    <strong className="number" data-number="7">7</strong>
                   </div>
                   <div className="text">
-                    <span>Board Members</span>
+                    <span>Board of Trustees</span>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+              <div className="col-6 col-md-4 col-lg d-flex justify-content-center counter-wrap ftco-animate">
                 <div className="block-18 text-center">
                   <div className="text">
-                    <strong className="number" data-number="20">0</strong>
+                    <strong className="number" data-number="10">10</strong>
+                  </div>
+                  <div className="text">
+                    <span>Board of Directors</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-4 col-lg d-flex justify-content-center counter-wrap ftco-animate">
+                <div className="block-18 text-center">
+                  <div className="text">
+                    <strong className="number" data-number="20">20</strong>
                   </div>
                   <div className="text">
                     <span>Pastors</span>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+              <div className="col-6 col-md-4 col-lg d-flex justify-content-center counter-wrap ftco-animate">
                 <div className="block-18 text-center">
                   <div className="text">
-                    <strong className="number" data-number="72">0</strong>
+                    <strong className="number" data-number="72">72</strong>
                   </div>
                   <div className="text">
                     <span>Churches</span>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+              <div className="col-6 col-md-4 col-lg d-flex justify-content-center counter-wrap ftco-animate">
                 <div className="block-18 text-center">
                   <div className="text">
-                    <strong className="number" data-number="5">0</strong>
+                    <strong className="number" data-number="8">8</strong>
                   </div>
                   <div className="text">
-                    <span>Education</span>
+                    <span>Schools</span>
                   </div>
                 </div>
               </div>

@@ -9,7 +9,7 @@ const PillarsPage = () => {
     },
     {
       title: 'Education',
-      description: 'Equipping future generations and church leaders through our Missionary Training Institute (MTI), Global Outreach Bible Institute (GOBI), and community mission schools.',
+      description: 'Equipping future generations and church leaders through our Missionary Training Institute (MTI), Global Outreach Bible Institute (GOBI, Jirem, Taraba State), Bible School (Gulbedu, Niger State), and Living Seed Primary Schools across Kebbi, Kano, Jibawa, and Jirem (3 schools).',
       image: '/images/ministry-3.jpg'
     },
     {

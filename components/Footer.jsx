@@ -17,24 +17,22 @@ const Footer = () => {
           <div className="col-md-6 col-lg-3 mb-4 mb-md-0">
             <h2 className="footer-heading">Latest News</h2>
             <div className="block-21 mb-4 d-flex">
-              <a className="img mr-4 rounded" style={{ backgroundImage: "url(/images/image_1.jpg)" }}></a>
+              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/event-3.jpg)" }}></a>
               <div className="text">
-                <h3 className="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 className="heading"><a href="/events">Missionary and Pastor's Retreat</a></h3>
                 <div className="meta">
-                  <div><a href="#">Aug. 10, 2020</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#">19</a></div>
+                  <div><span className="fa fa-calendar mr-1"></span> Dec. 9–13, 2026</div>
+                  <div><span className="fa fa-map-marker mr-1"></span> Bishe, Bassa LGA</div>
                 </div>
               </div>
             </div>
             <div className="block-21 mb-4 d-flex">
-              <a className="img mr-4 rounded" style={{ backgroundImage: "url(/images/image_2.jpg)" }}></a>
+              <a href="/events" className="img mr-4 rounded" style={{ backgroundImage: "url(/images/event-2.jpg)" }}></a>
               <div className="text">
-                <h3 className="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 className="heading"><a href="/events">30 Years Anniversary of the Ministry</a></h3>
                 <div className="meta">
-                  <div><a href="#">Aug. 10, 2020</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#">19</a></div>
+                  <div><span className="fa fa-calendar mr-1"></span> Dec. 12, 2026</div>
+                  <div><span className="fa fa-map-marker mr-1"></span> Global HQ, Bishe</div>
                 </div>
               </div>
             </div>

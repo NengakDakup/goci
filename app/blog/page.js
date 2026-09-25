@@ -20,33 +20,31 @@ const BlogPage = () => {
           <div className="row d-flex">
             <div className="col-md-6 col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
               <div className="blog-entry align-self-stretch">
-                <a href="blog-single.html" className="block-20" style={{ backgroundImage: "url('images/image_1.jpg')" }}>
+                <a href="/events" className="block-20" style={{ backgroundImage: "url('/images/event-3.jpg')" }}>
                 </a>
                 <div className="text p-4">
                   <div className="meta mb-2">
-                    <div><a href="#">July 20, 2020</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div><a href="#" className="meta-chat"><span className="fa fa-comment"></span> 3</a></div>
+                    <div><a href="/events">Dec. 9–13, 2026</a></div>
+                    <div><a href="/events">Headquarters</a></div>
                   </div>
-                  <h3 className="heading"><a href="#">Building Holy &amp; Healthy Lives God's</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                  <p><a href="#" className="btn btn-primary">Read more</a></p>
+                  <h3 className="heading"><a href="/events">Missionary and Pastor's Retreat 2026</a></h3>
+                  <p>Annual spiritual gathering and empowerment retreat holding from 9th to 13th December 2026 at Global Headquarter, Bishe, Bassa Local Govt., Plateau State.</p>
+                  <p><a href="/events" className="btn btn-primary">Event Details</a></p>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
               <div className="blog-entry align-self-stretch">
-                <a href="blog-single.html" className="block-20" style={{ backgroundImage: "url('images/image_2.jpg')" }}>
+                <a href="/events" className="block-20" style={{ backgroundImage: "url('/images/event-2.jpg')" }}>
                 </a>
                 <div className="text p-4">
                   <div className="meta mb-2">
-                    <div><a href="#">July 20, 2020</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div><a href="#" className="meta-chat"><span className="fa fa-comment"></span> 3</a></div>
+                    <div><a href="/events">Dec. 12, 2026</a></div>
+                    <div><a href="/events">Celebration</a></div>
                   </div>
-                  <h3 className="heading"><a href="#">Building Holy &amp; Healthy Lives God's</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                  <p><a href="#" className="btn btn-primary">Read more</a></p>
+                  <h3 className="heading"><a href="/events">30 Years Anniversary of the Ministry</a></h3>
+                  <p>Celebrating three decades of God's faithfulness (1996 – 2026) in unreached missions and world evangelization on 12th December 2026 @ Global Headquarter.</p>
+                  <p><a href="/events" className="btn btn-primary">Event Details</a></p>
                 </div>
               </div>
             </div>

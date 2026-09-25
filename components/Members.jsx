@@ -7,8 +7,9 @@ const Members = () => {
       <div className="container">
         <div className="row justify-content-center pb-5 mb-3">
           <div className="col-md-7 heading-section text-center ftco-animate">
-            <span className="subheading">Members</span>
-            <h2>Board Members</h2>
+            <span className="subheading">Leadership &amp; Governance</span>
+            <h2>Board of Trustees</h2>
+            <p className="text-muted">7 Members of the Board of Trustees &bull; 10 Members of the Board of Directors</p>
           </div>
         </div>
         <div className="row">
