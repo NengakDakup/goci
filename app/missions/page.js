@@ -19,14 +19,14 @@ const MissionsPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 ministry ftco-animate fadeInUp ftco-animated">
-              <div className="img" style={{ backgroundImage: "url(/images/church-congregation.jpg)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-evangelism.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
               <div className="text p-4">
                 <h2 className="mb-4">Evangelism & Church Planting</h2>
                 <p>Our mission is dedicated to spreading the Gospel and establishing new churches among various unreached communities. We currently have 72 mission stations across different states, reaching diverse ethnic groups with the love of Christ.</p>
               </div>
             </div>
             <div className="col-md-4 ministry ftco-animate fadeInUp ftco-animated">
-              <div className="img" style={{ backgroundImage: "url(/images/church-prayer.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-leadership.jpg)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
               <div className="text p-4">
                 <h2 className="mb-4">Discipleship & Leadership Training</h2>
                 <p>We prioritize equipping new believers and training local leaders to continue the work of ministry. Through mentorship, Bible study groups, and leadership development programs, we ensure that every church has strong, faithful leaders.</p>
@@ -49,7 +49,7 @@ const MissionsPage = () => {
             </div>
 
             <div className="col-md-4 ministry ftco-animate fadeInUp ftco-animated">
-              <div className="img" style={{ backgroundImage: "url(/images/church-service.jpg)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-prayer.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
               <div className="text p-4">
                 <h2 className="mb-4">Prayer & Intercession Ministry</h2>
                 <p>We believe in the power of prayer and encourage individuals and churches to intercede for the lost, for missionaries on the field, and for the expansion of God’s Kingdom.</p>
@@ -57,7 +57,7 @@ const MissionsPage = () => {
             </div>
 
             <div className="col-md-4 ministry ftco-animate fadeInUp ftco-animated">
-              <div className="img" style={{ backgroundImage: "url(/images/church-family.png)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-humanitarian.jpg)", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
               <div className="text p-4">
                 <h2 className="mb-4">Community Development & Humanitarian Aid</h2>
                 <p>Our ministry goes beyond preaching the Gospel—we also address the practical needs of the communities we serve. We engage in initiatives such as:</p>

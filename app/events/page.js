@@ -100,7 +100,7 @@ const EventsPage = () => {
 
             {/* Event: Leadership Retreat */}
             <div className="col-md-12 event-wrap d-md-flex ftco-animate fadeInUp ftco-animated mb-4">
-              <div className="img" style={{ backgroundImage: "url(/images/outreach/11.jpg)", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '260px' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-leadership.jpg)", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '260px' }}></div>
               <div className="text p-4 px-md-5 d-flex align-items-center">
                 <div className="desc w-100">
                   <span className="badge badge-warning px-3 py-1 mb-2 font-weight-bold" style={{ fontSize: '0.85rem' }}>Leadership Equipping</span>
@@ -120,7 +120,7 @@ const EventsPage = () => {
 
             {/* Event: Zonal Congresses */}
             <div className="col-md-12 event-wrap d-md-flex ftco-animate fadeInUp ftco-animated mb-4">
-              <div className="img" style={{ backgroundImage: "url(/images/church-family.png)", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '260px' }}></div>
+              <div className="img" style={{ backgroundImage: "url(/images/church-discipleship.png)", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '260px' }}></div>
               <div className="text p-4 px-md-5 d-flex align-items-center">
                 <div className="desc w-100">
                   <span className="badge badge-info px-3 py-1 mb-2 font-weight-bold" style={{ fontSize: '0.85rem' }}>Regional Fellowship</span>

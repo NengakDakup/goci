@@ -5,7 +5,7 @@ const PillarsPage = () => {
     {
       title: 'Church Mission',
       description: 'Reaching the unreached with the gospel of our Lord Jesus Christ, planting indigenous and self-sustaining churches, and deploying missionaries across virgin territories.',
-      image: '/images/church-convention.png'
+      image: '/images/church-evangelism.png'
     },
     {
       title: 'Education',
@@ -15,17 +15,17 @@ const PillarsPage = () => {
     {
       title: 'Social Service',
       description: 'Demonstrating the love of Christ through practical humanitarian aid, rural medical outreaches, clean water projects, and community relief initiatives.',
-      image: '/images/outreach/7.jpg'
+      image: '/images/church-humanitarian.jpg'
     },
     {
       title: 'Media and Publicity',
       description: 'Amplifying the King’s message to the kingdoms of the world through strategic media broadcasting, digital outreach, storytelling, and publication.',
-      image: '/images/church-prayer.png'
+      image: '/images/church-convention.png'
     },
     {
       title: 'Entrepreneurship',
       description: 'Fostering economic empowerment, vocational training, and sustainable livelihood programs to support self-reliant families and transforming local economies.',
-      image: '/images/church-family.png'
+      image: '/images/church-preaching.png'
     }
   ];
 
